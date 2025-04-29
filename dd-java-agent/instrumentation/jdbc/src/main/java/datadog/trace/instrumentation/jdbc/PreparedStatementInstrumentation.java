@@ -107,10 +107,11 @@ public final class PreparedStatementInstrumentation extends AbstractPreparedStat
     "net.sourceforge.jtds.jdbc.JtdsPreparedStatement",
     "net.sourceforge.jtds.jdbc.JtdsCallableStatement",
     // covers sybase
-    "com.sybase.jdbc4.jdbc.CallableStatement",
-    "com.sybase.jdbc4.jdbc.PreparedStatement",
-    "com.sybase.jdbc2.jdbc.CallableStatement",
-    "com.sybase.jdbc2.jdbc.PreparedStatement",
+    "com.sybase.jdbc4.jdbc.SybCallableStatement",
+    "com.sybase.jdbc4.jdbc.SybPreparedStatement",
+    // covers sybase jconn3
+    "com.sybase.jdbc3.jdbc.SybCallableStatement",
+    "com.sybase.jdbc3.jdbc.SybPreparedStatement",
     // SAP HANA in-memory DB
     "com.sap.db.jdbc.PreparedStatementSapDB",
     "com.sap.db.jdbc.CallableStatementSapDB",
