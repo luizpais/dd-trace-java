@@ -41,6 +41,8 @@ public class DBMCompatibleConnectionInstrumentation extends AbstractConnectionIn
     // jtds (for SQL Server and Sybase)
     "net.sourceforge.jtds.jdbc.ConnectionJDBC2", // 1.2
     "net.sourceforge.jtds.jdbc.JtdsConnection", // 1.3
+    // Sybase
+    "com.sybase.jdbc4.jdbc.SybConnection",
     // postgresql seems to be complete
     "org.postgresql.jdbc.PgConnection",
     "org.postgresql.jdbc1.Connection",
